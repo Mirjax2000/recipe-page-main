@@ -61,8 +61,8 @@ i saved lots of kilobytes.
 
 ### What I learned
 
-Art direction
-Resolution switching
+<p>Art direction</p>
+<p>Resolution switching</p>
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
