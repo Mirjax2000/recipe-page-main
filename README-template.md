@@ -89,6 +89,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 -   [Design Course](https://www.youtube.com/watch?v=er1JEDuPbZQ&t=2s&ab_channel=DesignCourse) - Nice explanation of B.E.M.
+-   MDN - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+-   Kevin Powell - (https://www.youtube.com/watch?v=Rik3gHT24AM&t=979s&ab_channel=KevinPowell)
 
 ## Author
 
