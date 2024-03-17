@@ -1,0 +1,147 @@
+@use './functions' as *;
+// ---------------------
+//   --- Variables ---
+// ---------------------
+
+$debug: false;
+
+// --- colors ---
+$clr10: #ffffff; //White
+$clr11: #333333; //Gray
+$clr12: #1F1F1F; //Dark Gray
+$clr13: black; //Black
+$clr14: #C4F82A; //Neon Green
+$clr15: #D5E1EF; //Light Grey
+$clr99: #808080; // Grey
+// -----------------------
+// font color
+
+// text Heading
+$clr-txt-heading: $clr10;
+$clr-txt-heading-hover: $clr13;
+
+// text H1
+$clr-txt-H1: $clr13;
+
+// text H2
+$clr-txt-H2: $clr14;
+
+// text H3
+$clr-txt-H3: $clr10;
+
+// text a
+$clr-txt-a: $clr10;
+$clr-txt-a-hover: $clr13;
+
+// navigation links
+$clr-txt-navlinks: $clr10;
+
+// footer paragraph
+$clr-txt-footer: $clr10;
+// -------------------------
+
+// backround color
+$clr-bg-body: $clr13;
+
+$clr-bg-container: $clr12;
+
+$clr-bg-card-btn: $clr11;
+$clr-bg-card-btn-hover: $clr14;
+
+$clr-bg-active: $clr10;
+
+$clr-bg-footer: $clr10;
+$clr-bg-img: $clr99;
+// -------------------------
+
+$backroundGradient: (
+    98.96% 98.96% at 50% 0%,
+    #232A34 0%,
+    #181E27 100%
+);
+// --------------------------------
+
+// --- fonts ---
+$font-family-SourceSans: "Source Sans 3", sans-serif;
+$font-family-Outfit: Outfit, sans-serif;
+$font-family-Figtree: Figtree, sans-serif;
+$font-family-Inter: Inter, sans-serif;
+
+$font-family-serif: Georgia, Times, 'Times New Roman', serif;
+// -------------------------------
+
+// --- border-radius ---
+$br-card: 12;
+$br-btn: 8;
+// ----------------------
+
+// border color
+$clr-br: $clr13 ;
+// ----------------------
+
+// shadow color
+$clr-shd: $clr13 ;
+// ----------------------
+
+// transition
+$tr-time: .2s;
+//----------------------
+
+// --- break points ---
+// -------------------------------
+
+// --- font-sizes ---
+$font-size-110: 110%;
+$font-size-100: 100%;
+$font-size-90: 90%;
+// --------------------------------
+
+// heading
+$headingMax: rem(24, 0); //24px
+$headingMid: rem(20, 0); //20px
+$headingMin: rem(32, 20); //16px
+$headingMni: 1.37rem; //22px
+
+// body Bold
+$body-Bold-Max: rem(14, 0); //16
+$bodyMMid: rem(14, 0); //14
+$bodyMMin: 1.083rem; //17.3px
+$bodyMMni: .9125rem; //14.6px
+
+// body Regular
+$body-Regular-Max: rem(14, 0); //14
+$bodySMid: rem(12, 0); //12
+$bodySMin: 1.3538rem; //21.6px
+$bodySMSni: 1.1438rem; //18.3px
+
+//footer
+$footH3Max: rem(14, 0); //14px
+$footH3Mid: rem(14, 0); //14px
+$footmin: .975rem; //15.6px
+$footmni: .825rem; //13.2px
+// --------------------------------
+
+
+// --- pole ---
+// $pages: home, gallery, blog, contact, buttons;
+
+// icon colors
+$icons-color: (
+    'cog':$clr13,
+    'flash':$clr13,
+    'star':$clr13,
+    'facebook':$clr13,
+    'twitter':$clr13,
+    'dribbble':$clr13,
+    'tumbler':$clr13,
+    'linkedin':$clr13,
+);
+
+$btns-color: (
+    'GetStarted':$clr12,
+    'ContinueReading':$clr12,
+    'FindOutMore':$clr12,
+    'LearnMoreMain':$clr11,
+    'comments':$clr11,
+);
+//--------------------------------

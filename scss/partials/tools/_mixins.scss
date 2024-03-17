@@ -1,0 +1,128 @@
+@use './variables' as *;
+
+// ------------------
+//   --- Mixins ---
+// ------------------
+
+
+// vlastnost vyberu
+@mixin selection ($clr-bg-selection: black, $clr-selection: white) {
+    ::selection {
+        background-color: $clr-bg-selection;
+        color: $clr-selection;
+    }
+}
+
+// zadny vyber
+@mixin noSelection {
+    user-select: none;
+}
+
+// $value= border-box, content-box, inherit
+@mixin box-sizing ($value) {
+    box-sizing: $value;
+}
+
+
+// basic Flex layout
+@mixin flex($justify: space-between, $align: flex-start, $gap: 0rem, $direction: row, $wrap: nowrap) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+// zarovnani na stred
+@mixin flexCenter($justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin container($width: 90rem) {
+    max-width: $width;
+    margin-inline: auto;
+}
+
+@mixin radialGradient($background: $backroundGradient) {
+
+    background: radial-gradient($background);
+}
+
+@mixin breathingBackround ($firstColor, $secondColor) {
+
+    //barva gradientu
+    background: linear-gradient(-45deg,
+            $firstColor 0%,
+            $secondColor 100%);
+    background-size: 300%;
+    animation: gradient 10s ease infinite;
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+
+@mixin fallback-background ($clr: #894040, $alpha: .85) {
+    background-color: $clr;
+    background-color: rgba($clr, $alpha);
+}
+
+
+// --- visually-hidden ---
+@mixin hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
+
+
+@mixin mQmax {
+    @media only screen and (max-width:$mQmax) {
+        :root {}
+
+        @content;
+    }
+}
+
+@mixin mQmid {
+    @media only screen and (max-width:$mQmid) {
+
+        :root {}
+
+        @content;
+    }
+}
+
+@mixin mQmin {
+    @media only screen and (max-width:$mQmin) {
+        :root {}
+
+        @content;
+    }
+}
+
+@mixin mQdefault($width) {
+    @media only screen and (max-width:$width) {
+
+        :root {}
+
+        @content;
+    }
+}

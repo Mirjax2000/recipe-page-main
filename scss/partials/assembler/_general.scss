@@ -1,0 +1,14 @@
+@use '../tools/' as *;
+
+// ----------------------------
+/*   --- general settings --- */
+// ----------------------------
+
+$debug: false;
+
+// --- HTML settings: box sizing, selection
+html {
+    @include box-sizing (border-box);
+    @include selection ($clr-bg-body);
+    font-size: var(--font-size);
+}

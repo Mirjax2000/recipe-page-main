@@ -1,0 +1,6 @@
+@use '../partials/tools' as *;
+@use '../partials/assembler/' as *;
+@use '../partials/structure/header';
+@use './main';
+@use '../partials/structure/footer';
+@use './mediaqueries';

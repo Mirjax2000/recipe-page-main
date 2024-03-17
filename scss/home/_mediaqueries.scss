@@ -1,0 +1,27 @@
+@use '../partials/tools' as *;
+@use '../partials/assembler/' as *;
+
+// ----------------------
+/* mediaqueries */
+// ----------------------
+
+@media only screen and (max-width: 780px) {
+
+    // :root {
+    //     --font-size:#{$font-size-100};
+    //     --heading:#{$headingMid};
+    //     --bodyM:#{$bodyMMid};
+    //     --bodyS:#{$bodySMid};
+    //     --footerH3:#{$footH3Mid};
+    // }
+
+    .container {
+        min-width: em(327, 16)
+    }
+
+    .card {
+        padding: em(24, 16)
+    }
+}
+
+;

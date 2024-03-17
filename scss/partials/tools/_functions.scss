@@ -1,0 +1,14 @@
+// --------------------
+//   --- function ---
+// --------------------
+
+// prepocet na em target/context
+@function em($target, $content) {
+    @return calc(($target / $content) *1em);
+}
+
+
+// funkce na fonty do variables na prepocet velikosti pri breakpointu
+@function rem($pixlsize, $procento) {
+    @return calc(((($pixlsize/ 100) * $procento + $pixlsize)/16)*1rem);
+}
