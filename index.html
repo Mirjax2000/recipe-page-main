@@ -25,28 +25,20 @@
 
 <body class="home">
 
-    <section class="container">
+    <div class="container">
+        <!-- prettier-ignore -->
+        <picture>
+            <source media="(max-width:1080px)" 
+                    srcset="img/image-hero-tablet.webp,
+                            img/image-hero-tablet@2x.webp 2x">
 
-        <div class="card">
+            <source srcset="img/image-hero-desktop.webp,
+                            img/image-hero-desktop@2x.webp 2x">
 
-            <div class="card__img">
-                <img src="./assets/img/avatar-jessica.jpeg" alt="avatar" width="88" height="88">
-            </div>
+            <img src="./img/image-hero-desktop.webp" alt="logo">
+        </picture>
 
-            <h1>Jessica Randall</h1>
-            <h2>London, United Kingome</h2>
-            <h3>"Front-end developer and avid reader"</h3>
-
-            <ul class="card__list">
-                <li class="card__list--item"><a href="#">GitHub</a></li>
-                <li class="card__list--item"><a href="#">Frontend Mentor</a></li>
-                <li class="card__list--item"><a href="#">LinkedIn</a></li>
-                <li class="card__list--item"><a href="#">Twitter</a></li>
-                <li class="card__list--item"><a href="#">Instagram</a></li>
-            </ul>
-        </div>
-    </section>
-
+    </div>
 
 </body>
 

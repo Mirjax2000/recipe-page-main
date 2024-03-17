@@ -260,13 +260,6 @@ li {
   list-style-type: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-  background-color: #808080;
-}
-
 *,
 *::before,
 *::after {
@@ -327,74 +320,5 @@ html ::selection {
           align-items: center;
 }
 
-.container {
-  min-width: 24em;
-  background-color: #1F1F1F;
-  border-radius: 0.75em;
-}
-
-.card {
-  text-align: center;
-  padding: 2.5em;
-}
-.card__img {
-  margin-bottom: 1.5em;
-}
-.card__img img {
-  min-width: 5.5em;
-  min-height: 5.5em;
-  border-radius: 50%;
-}
-.card h1 {
-  font-size: var(--heading);
-  line-height: 1.5em;
-  color: #ffffff;
-  font-weight: 600;
-}
-.card h2 {
-  font-size: var(--body-Bold);
-  line-height: 1.5em;
-  color: #C4F82A;
-  font-weight: 700;
-  margin-top: 0.2857142857em;
-}
-.card h3 {
-  font-size: var(--body-Bold);
-  line-height: 1.5em;
-  font-weight: 400;
-  color: #ffffff;
-  margin: 1.7142857143em 0 1.7142857143em 0;
-}
-.card__list > :last-child {
-  margin-bottom: 0;
-}
-.card__list--item {
-  margin-bottom: 1.1428571429em;
-}
-.card__list--item a {
-  display: block;
-  font-size: var(--body-Bold);
-  line-height: 1.5em;
-  color: #ffffff;
-  font-weight: 700;
-  padding-block: 0.8571428571em;
-  border-radius: 0.5714285714em;
-  background-color: #333333;
-  -webkit-transition: ease-in-out 0.2s color, ease-in-out 0.2s background-color;
-  transition: ease-in-out 0.2s color, ease-in-out 0.2s background-color;
-}
-.card__list--item a:hover, .card__list--item a:focus {
-  background-color: #C4F82A;
-  color: black;
-}
-
 /* mediaqueries */
-@media only screen and (max-width: 780px) {
-  .container {
-    min-width: 20.4375em;
-  }
-  .card {
-    padding: 1.5em;
-  }
-}
 /*# sourceMappingURL=home.css.map */
