@@ -45,7 +45,7 @@ i saved lots of kilobytes.
 5. selfhost and set fonts
 6. set color pallet to my variables maps
 7. calculate font sizes and line-heights to REMs and EMs
-8. HTML structure with B.E.M.
+8. HTML structure with B.E.M. - resolution switching and art direction for images.
 9. DiVe into coding in Sass
 10. Mediaqueries
 11. testing
