@@ -12,3 +12,10 @@ html {
     @include selection ($clr-bg-body);
     font-size: var(--font-size);
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-color: $clr-bg-img;
+}

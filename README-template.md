@@ -20,6 +20,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 Deep dive into B.E.M.
 Mobile first aproach
+trying to save some bandwidth and made smaller picture for mobile resolution, and used "Art direction" and "Resolution switching" technique for retina displays.
+also i compress jpeg to webp.
+i saved lots of kilobytes.
 
 ### Screenshot
 
@@ -58,9 +61,8 @@ Mobile first aproach
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Art direction
+Resolution switching
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
