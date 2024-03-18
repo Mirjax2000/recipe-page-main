@@ -81,8 +81,8 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
 />
 ```
 
-Here i self-host fonts.
-compress to woff2.
+Here i am self-hosting fonts.
+I compressed it to woff2.
 fallback to ttf.
 
 ```css
