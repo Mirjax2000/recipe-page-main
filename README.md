@@ -7,7 +7,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 -   [Overview](#overview)
-    -   [The challenge](#the-challenge)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
 -   [My process](#my-process)
@@ -55,7 +54,7 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
 ### Built with
 
 -   Semantic HTML5 markup
--   Picture art
+-   Picture resolutin
 -   CSS custom properties - BEM naming convention
 -   Flexbox
 -   Mobile-first workflow
@@ -74,6 +73,7 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
         ./assets/img/main_2600-test.webp 2600w
     "
     sizes="(min-width:760) 50vw, 100vw"
+
     src="./assets/img/main_1300-test.webp"
     width="1300"
     height="594"
@@ -110,7 +110,7 @@ Practise, practise, practise.
 
 -   [Design Course](https://www.youtube.com/watch?v=er1JEDuPbZQ&t=2s&ab_channel=DesignCourse) - Nice explanation of B.E.M.
 -   [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - Picture element in responsive design.
--   [Kevin Powell](https://www.youtube.com/watch?v=Rik3gHT24AM&t=979s&ab_channel=KevinPowell) - Demonstration how to use it in the code.
+-   [Kevin Powell](https://www.youtube.com/watch?v=Rik3gHT24AM&t=979s&ab_channel=KevinPowell) - Demonstration img sourceset: how to use it in the code.
 
 ## Author
 
