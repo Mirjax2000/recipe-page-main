@@ -81,9 +81,16 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
 />
 ```
 
+Here i self-host fonts.
+compress to woff2.
+fallback to ttf.
+
 ```css
-.proud-of-this-css {
-    color: papayawhip;
+@font-face {
+    font-family: 'Young Serif';
+    src: url(../assets/webfonts/Font-face/YoungSerif-Regular.woff2) format('woff2'),
+        url(../assets/webfonts/Font-face/YoungSerif-Regular.ttf) format('truetype');
+    font-weight: 400;
 }
 ```
 

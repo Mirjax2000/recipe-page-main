@@ -2,7 +2,7 @@
 :root {
   --font-size:100%;
   --heading-L:2.5rem;
-  --heading-M:2.5rem;
+  --heading-M:1.75rem;
   --heading-S:1.25rem;
   --body-Regular:1rem;
   --body-Bold:1rem;
@@ -272,26 +272,47 @@ li {
 /* --- typography --- */
 @font-face {
   font-family: "Outfit";
-  src: url(../assets/webfonts/Font-face/Outfit-Regular.woff2) format("woff2");
-  src: url(../assets/webfonts/Font-face/Outfit-Regular.ttf) format("ttf");
+  src: url(../assets/webfonts/Font-face/Outfit-Regular.woff2) format("woff2"), url(../assets/webfonts/Font-face/Outfit-Regular.ttf) format("truetype");
   font-weight: 400;
 }
 @font-face {
   font-family: "Outfit";
-  src: url(../assets/webfonts/Font-face/Outfit-SemiBold.woff2) format("woff2");
-  src: url(../assets/webfonts/Font-face/Outfit-SemiBold.ttf) format("ttf");
+  src: url(../assets/webfonts/Font-face/Outfit-SemiBold.woff2) format("woff2"), url(../assets/webfonts/Font-face/Outfit-SemiBold.ttf) format("truetype");
   font-weight: 600;
 }
 @font-face {
   font-family: "Outfit";
-  src: url(../assets/webfonts/Font-face/Outfit-Bold.woff2) format("woff2");
-  src: url(../assets/webfonts/Font-face/Outfit-Bold.ttf) format("ttf");
+  src: url(../assets/webfonts/Font-face/Outfit-Bold.woff2) format("woff2"), url(../assets/webfonts/Font-face/Outfit-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url(../assets/webfonts/Font-face/Figtree-Medium.woff2) format("woff2"), url(../assets/webfonts/Font-face/Figtree-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url(../assets/webfonts/Font-face/Figtree-ExtraBold.woff2) format("woff2"), url(../assets/webfonts/Font-face/Figtree-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../assets/webfonts/Font-face/Inter-Regular.woff2) format("woff2"), url(../assets/webfonts/Font-face/Inter-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../assets/webfonts/Font-face/Inter-SemiBold.woff2) format("woff2"), url(../assets/webfonts/Font-face/Inter-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../assets/webfonts/Font-face/Inter-Bold.woff2) format("woff2"), url(../assets/webfonts/Font-face/Inter-Bold.ttf) format("truetype");
   font-weight: 700;
 }
 @font-face {
   font-family: "Young Serif";
-  src: url(../assets/webfonts/Font-face/YoungSerif-Regular.woff2) format("woff2");
-  src: url(../assets/webfonts/Font-face/YoungSerif-Regular.ttf) format("ttf");
+  src: url(../assets/webfonts/Font-face/YoungSerif-Regular.woff2) format("woff2"), url(../assets/webfonts/Font-face/YoungSerif-Regular.ttf) format("truetype");
   font-weight: 400;
 }
 /*   --- general settings --- */
@@ -319,24 +340,27 @@ img {
 /*  --- header --- */
 /* --- home main --- */
 .home {
-  font-family: Inter, sans-serif;
   font-optical-sizing: auto;
   background-color: #E3DDD7;
   height: 100dvh;
   width: 100dvw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.container {
-  max-width: 50dvw;
+.Heading-L,
+.Heading-M {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: var(--heading-L);
+}
+
+.Heading-M {
+  font-size: var(--heading-M);
+}
+
+.Heading-S {
+  font-family: Outfit, sans-serif;
+  font-weight: 600;
+  font-size: var(--heading-S);
 }
 
 /* mediaqueries */

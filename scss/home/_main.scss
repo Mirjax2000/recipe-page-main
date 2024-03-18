@@ -7,14 +7,29 @@
 
 
 .home {
-    font-family: $font-family-Inter;
     font-optical-sizing: auto;
     background-color: $clr-bg-body ;
     height: 100dvh;
     width: 100dvw;
-    @include flexCenter;
+    // @include flexCenter;
 }
 
-.container {
-    max-width: 50dvw;
+
+.Heading-L,
+.Heading-M {
+    font-family: $font-family-YoungSerif;
+    font-weight: 400;
+    font-size: var(--heading-L);
 }
+
+.Heading-M {
+    font-size: var(--heading-M);
+}
+
+.Heading-S{
+  font-family: $font-family-Outfit;
+  font-weight: 600;
+  font-size: var(--heading-S); 
+}
+
+.container {}
