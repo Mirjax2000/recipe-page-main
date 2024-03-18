@@ -26,17 +26,15 @@
 <body class="home">
 
     <div class="container">
-        <!-- prettier-ignore -->
-        <picture>
-            <source media="(max-width:1080px)" 
-                    srcset="img/image-hero-tablet.webp,
-                            img/image-hero-tablet@2x.webp 2x">
 
-            <source srcset="img/image-hero-desktop.webp,
-                            img/image-hero-desktop@2x.webp 2x">
-
-            <img src="./img/image-hero-desktop.webp" alt="logo">
-        </picture>
+        <img srcset="./assets/img/main_325-test.webp   325w,
+                     ./assets/img/main_650-test.webp   650w,
+                     ./assets/img/main_1300-test.webp 1300w,
+                     ./assets/img/main_2600-test.webp 2600w" 
+             sizes="(min-width:760px) 50vw, 100vw"
+             src="./assets/img/main_1300-test.webp" 
+             width="1300" height="594" 
+             alt="Omelet from recipe">
 
     </div>
 

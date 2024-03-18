@@ -1,9 +1,11 @@
 /*   --- root css --- */
 :root {
   --font-size:100%;
-  --heading:1.5rem;
-  --body-Bold:0.875rem;
-  --body-Regular:0.875rem;
+  --heading-L:2.5rem;
+  --heading-M:2.5rem;
+  --heading-S:1.25rem;
+  --body-Regular:1rem;
+  --body-Bold:1rem;
 }
 
 /*   --- normalize css --- */
@@ -269,22 +271,28 @@ li {
 
 /* --- typography --- */
 @font-face {
-  font-family: "Inter";
-  src: url(../assets/webfonts/Font-face/Inter-Regular.woff2) format("woff2");
-  src: url(../assets/webfonts/Font-face/Inter-Regular.ttf) format("ttf");
+  font-family: "Outfit";
+  src: url(../assets/webfonts/Font-face/Outfit-Regular.woff2) format("woff2");
+  src: url(../assets/webfonts/Font-face/Outfit-Regular.ttf) format("ttf");
   font-weight: 400;
 }
 @font-face {
-  font-family: "Inter";
-  src: url(../assets/webfonts/Font-face/Inter-SemiBold.woff2) format("woff2");
-  src: url(../assets/webfonts/Font-face/Inter-SemiBold.ttf) format("ttf");
+  font-family: "Outfit";
+  src: url(../assets/webfonts/Font-face/Outfit-SemiBold.woff2) format("woff2");
+  src: url(../assets/webfonts/Font-face/Outfit-SemiBold.ttf) format("ttf");
   font-weight: 600;
 }
 @font-face {
-  font-family: "Inter";
-  src: url(../assets/webfonts/Font-face/Inter-Bold.woff2) format("woff2");
-  src: url(../assets/webfonts/Font-face/Inter-Bold.ttf) format("ttf");
+  font-family: "Outfit";
+  src: url(../assets/webfonts/Font-face/Outfit-Bold.woff2) format("woff2");
+  src: url(../assets/webfonts/Font-face/Outfit-Bold.ttf) format("ttf");
   font-weight: 700;
+}
+@font-face {
+  font-family: "Young Serif";
+  src: url(../assets/webfonts/Font-face/YoungSerif-Regular.woff2) format("woff2");
+  src: url(../assets/webfonts/Font-face/YoungSerif-Regular.ttf) format("ttf");
+  font-weight: 400;
 }
 /*   --- general settings --- */
 html {
@@ -293,12 +301,19 @@ html {
   font-size: var(--font-size);
 }
 html ::-moz-selection {
-  background-color: black;
+  background-color: #E3DDD7;
   color: white;
 }
 html ::selection {
-  background-color: black;
+  background-color: #E3DDD7;
   color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  background-color: #808080;
 }
 
 /*  --- header --- */
@@ -306,7 +321,7 @@ html ::selection {
 .home {
   font-family: Inter, sans-serif;
   font-optical-sizing: auto;
-  background-color: black;
+  background-color: #E3DDD7;
   height: 100dvh;
   width: 100dvw;
   display: -webkit-box;
@@ -318,6 +333,10 @@ html ::selection {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.container {
+  max-width: 50dvw;
 }
 
 /* mediaqueries */

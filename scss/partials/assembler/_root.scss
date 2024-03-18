@@ -6,7 +6,9 @@
 
 :root {
     --font-size:#{$font-size-100};
-    --heading:#{$headingMax};
-    --body-Bold:#{$body-Bold-Max};
-    --body-Regular:#{$body-Regular-Max};
+    --heading-L:#{$heading__L--Max};
+    --heading-M:#{$heading__L--Max};
+    --heading-S:#{$heading__S--Max};
+    --body-Regular:#{$body__Regular--Max};
+    --body-Bold:#{$body__Bold--Max};
 }

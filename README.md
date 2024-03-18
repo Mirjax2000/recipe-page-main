@@ -22,7 +22,7 @@ Deep dive into B.E.M.
 Mobile first aproach
 trying to save some bandwidth and made smaller picture for mobile resolution, and used "Art direction" and "Resolution switching" technique for retina displays.
 also i compress jpeg to webp.
-i saved lots of kilobytes.
+i saved lots of kilobytes. And it has some role in SEO evaluation.
 
 ### Screenshot
 
@@ -55,6 +55,7 @@ i saved lots of kilobytes.
 ### Built with
 
 -   Semantic HTML5 markup
+-   Picture art
 -   CSS custom properties - BEM naming convention
 -   Flexbox
 -   Mobile-first workflow
@@ -65,7 +66,19 @@ i saved lots of kilobytes.
 <p>Resolution switching</p>
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<img
+    srcset="
+        ./assets/img/main_325-test.webp   325w,
+        ./assets/img/main_650-test.webp   650w,
+        ./assets/img/main_1300-test.webp 1300w,
+        ./assets/img/main_2600-test.webp 2600w
+    "
+    sizes="(min-width:760) 50vw, 100vw"
+    src="./assets/img/main_1300-test.webp"
+    width="1300"
+    height="594"
+    alt="Omelet from recipe"
+/>
 ```
 
 ```css

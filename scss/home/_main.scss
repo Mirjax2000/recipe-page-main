@@ -1,8 +1,10 @@
 @use '../partials/tools' as *;
 @use '../partials/assembler/' as *;
+
 // --------------------
 /* --- home main --- */
 // --------------------
+
 
 .home {
     font-family: $font-family-Inter;
@@ -13,4 +15,6 @@
     @include flexCenter;
 }
 
-
+.container {
+    max-width: 50dvw;
+}

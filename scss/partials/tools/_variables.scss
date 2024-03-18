@@ -7,11 +7,13 @@ $debug: false;
 
 // --- color pallete ---
 $clr10: #ffffff; //White
-$clr11: #333333; //Gray
-$clr12: #1F1F1F; //Dark Gray
-$clr13: black; //Black
-$clr14: #C4F82A; //Neon Green
-$clr15: #D5E1EF; //Light Grey
+$clr11: #5F564D; //Wenge Brown
+$clr12: #854632; //Brandy Red
+$clr13: #E3DDD7; //White Coffee
+$clr14: #7A284E; //Dark Rapsberry
+$clr15: #312E2C; //Dark Charcoal
+$clr16: #FFF7FB; //Snow
+
 $clr99: #808080; // Grey
 // -----------------------
 
@@ -67,8 +69,20 @@ $font-family-SourceSans: "Source Sans 3", sans-serif;
 $font-family-Outfit: Outfit, sans-serif;
 $font-family-Figtree: Figtree, sans-serif;
 $font-family-Inter: Inter, sans-serif;
+$font-family-YoungSerif: 'Young Serif', serif;
 
 $font-family-serif: Georgia, Times, 'Times New Roman', serif;
+$font-family-systemUI: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
 // -------------------------------
 
 // --- border-radius ---
@@ -97,23 +111,25 @@ $font-size-100: 100%;
 $font-size-90: 90%;
 // --------------------------------
 
-// heading
-$headingMax: rem(24, 0); //24px
-$headingMid: rem(20, 0); //20px
-$headingMin: rem(32, 20); //16px
-$headingMni: 1.37rem; //22px
+// Heading L
+$heading__L--Max: rem(40, 0); //40px
+$heading__L--Mid: rem(20, 0); //20px
 
-// body Bold
-$body-Bold-Max: rem(14, 0); //16
-$bodyMMid: rem(14, 0); //14
-$bodyMMin: 1.083rem; //17.3px
-$bodyMMni: .9125rem; //14.6px
+// Heading M
+$heading__M--Max: rem(28, 0); //28
+$heading__M--Mid: rem(14, 0); //14
 
-// body Regular
-$body-Regular-Max: rem(14, 0); //14
-$bodySMid: rem(12, 0); //12
-$bodySMin: 1.3538rem; //21.6px
-$bodySMSni: 1.1438rem; //18.3px
+// Heading S
+$heading__S--Max: rem(20, 0); //20
+$heading__S--Mid: rem(14, 0); //14
+
+// Body (Regular)
+$body__Regular--Max: rem(16, 0); //16
+$body__Regular--Mid: rem(16, 0); //16
+
+// Body (Bold)
+$body__Bold--Max: rem(16, 0); //16
+$body__Bold--Mid: rem(16, 0); //16
 
 //footer
 $footH3Max: rem(14, 0); //14px
