@@ -54,7 +54,7 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
 ### Built with
 
 -   Semantic HTML5 markup
--   Picture art
+-   Picture resolutin
 -   CSS custom properties - BEM naming convention
 -   Flexbox
 -   Mobile-first workflow
