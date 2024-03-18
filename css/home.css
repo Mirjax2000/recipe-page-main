@@ -322,11 +322,11 @@ html {
   font-size: var(--font-size);
 }
 html ::-moz-selection {
-  background-color: #E3DDD7;
+  background-color: #F3E5D7;
   color: white;
 }
 html ::selection {
-  background-color: #E3DDD7;
+  background-color: #F3E5D7;
   color: white;
 }
 
@@ -341,26 +341,17 @@ img {
 /* --- home main --- */
 .home {
   font-optical-sizing: auto;
-  background-color: #E3DDD7;
-  height: 100dvh;
+  background-color: #F3E5D7;
   width: 100dvw;
-}
-
-.Heading-L,
-.Heading-M {
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-size: var(--heading-L);
-}
-
-.Heading-M {
-  font-size: var(--heading-M);
-}
-
-.Heading-S {
-  font-family: Outfit, sans-serif;
-  font-weight: 600;
-  font-size: var(--heading-S);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* mediaqueries */

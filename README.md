@@ -65,20 +65,21 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
 <p>Resolution switching</p>
 
 ```html
-<img
-    srcset="
-        ./assets/img/main_325-test.webp   325w,
-        ./assets/img/main_650-test.webp   650w,
-        ./assets/img/main_1300-test.webp 1300w,
-        ./assets/img/main_2600-test.webp 2600w
-    "
-    sizes="(min-width:760) 50vw, 100vw"
-
-    src="./assets/img/main_1300-test.webp"
-    width="1300"
-    height="594"
-    alt="Omelet from recipe"
-/>
+<div class="card__img">
+    <img
+        srcset="
+            ./assets/img/main_325.webp   350w,
+            ./assets/img/main_650.webp   750w,
+            ./assets/img/main_1300.webp 1500w,
+            ./assets/img/main_2600.webp 2600w
+        "
+        sizes="(min-width:1501px)50vw, 100vw"
+        src="./assets/img/main_1300.webp"
+        width="1300"
+        height="594"
+        alt="Omelet from recipe"
+    />
+</div>
 ```
 
 Here i am self-hosting fonts.
@@ -93,14 +94,6 @@ fallback to ttf.
     font-weight: 400;
 }
 ```
-
-```js
-const proudOfThisFunc = () => {
-    console.log('🎉');
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
