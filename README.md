@@ -7,7 +7,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 -   [Overview](#overview)
-    -   [The challenge](#the-challenge)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
 -   [My process](#my-process)
@@ -74,6 +73,7 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
         ./assets/img/main_2600-test.webp 2600w
     "
     sizes="(min-width:760) 50vw, 100vw"
+
     src="./assets/img/main_1300-test.webp"
     width="1300"
     height="594"
