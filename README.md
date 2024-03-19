@@ -67,14 +67,14 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
 ```html
 <div class="card__img">
     <img
+        sizes="(max-width:770px) calc(100vw - 80px), 736px"
         srcset="
-            ./assets/img/main_325.webp   350w,
-            ./assets/img/main_650.webp   750w,
-            ./assets/img/main_1300.webp 1500w,
-            ./assets/img/main_2600.webp 2600w
+            ./assets/img/main_325-test.webp   325w,
+            ./assets/img/main_650-test.webp   650w,
+            ./assets/img/main_1300-test.webp 1300w,
+            ./assets/img/main_2600-test.webp 2600w
         "
-        sizes="(min-width:1501px)50vw, 100vw"
-        src="./assets/img/main_1300.webp"
+        src="./assets/img/main_1300-test.webp"
         width="1300"
         height="594"
         alt="Omelet from recipe"

@@ -6,9 +6,22 @@
 
 :root {
     --font-size:#{$font-size-100};
-    --heading-L:#{$heading__L--Max};
-    --heading-M:#{$heading__M--Max};
-    --heading-S:#{$heading__S--Max};
-    --body-Regular:#{$body__Regular--Max};
-    --body-Bold:#{$body__Bold--Max};
+    --heading-L:#{$heading__L--Mid};
+    --heading-M:#{$heading__M--Mid};
+    --heading-S:#{$heading__S--Mid};
+    --body-Regular:#{$body__Regular--Mid};
+    --body-Bold:#{$body__Bold--Mid};
 }
+
+/* Simple Omelette Recipe */
+
+
+// font-family: 'Young Serif';
+// font-style: normal;
+// font-weight: 400;
+// font-size: 36px;
+// line-height: 100%;
+// /* or 36px */
+
+// /* Dark Charcoal */
+// color: #312E2C;

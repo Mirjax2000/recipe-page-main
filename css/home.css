@@ -1,13 +1,14 @@
 /*   --- root css --- */
 :root {
   --font-size:100%;
-  --heading-L:2.5rem;
-  --heading-M:1.75rem;
-  --heading-S:1.25rem;
+  --heading-L:2.25rem;
+  --heading-M:0.875rem;
+  --heading-S:0.875rem;
   --body-Regular:1rem;
   --body-Bold:1rem;
 }
 
+/* Simple Omelette Recipe */
 /*   --- normalize css --- */
 html {
   -moz-tab-size: 4;
@@ -357,8 +358,30 @@ img {
   border-radius: 1.5em;
 }
 
+.card__content {
+  padding: 2.5em 2em;
+}
+.card__content .content__Heading {
+  margin-bottom: 2em;
+}
+.card__content .content__Heading h1 {
+  font-family: "Young Serif", serif;
+  font-size: var(--heading-L);
+  color: #312E2C;
+  line-height: 1em;
+  font-weight: 400;
+  margin-bottom: 0.6666666667em;
+}
+.card__content .content__Heading p {
+  font-family: Outfit, sans-serif;
+  font-size: var(--body-Regular);
+  color: #5F564D;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
 /* mediaqueries */
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
   .container {
     max-width: 46em;
   }

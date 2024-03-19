@@ -21,8 +21,7 @@ $clr99: #808080; // Grey
 // font color
 
 // text Heading
-$clr-txt-heading: $clr10;
-$clr-txt-heading-hover: $clr13;
+$clr-txt-heading-L: $clr15;
 
 // text H1
 $clr-txt-H1: $clr13;
@@ -33,9 +32,8 @@ $clr-txt-H2: $clr14;
 // text H3
 $clr-txt-H3: $clr10;
 
-// text a
-$clr-txt-a: $clr10;
-$clr-txt-a-hover: $clr13;
+// text body regular
+$clr-txt-body-regular: $clr11;
 
 // navigation links
 $clr-txt-navlinks: $clr10;
@@ -110,11 +108,12 @@ $tr-time: .2s;
 $font-size-110: 110%;
 $font-size-100: 100%;
 $font-size-90: 90%;
+$font-size-85: 85%;
 // --------------------------------
 
 // Heading L
 $heading__L--Max: rem(40, 0); //40px
-$heading__L--Mid: rem(20, 0); //20px
+$heading__L--Mid: rem(36, 0); //36px
 
 // Heading M
 $heading__M--Max: rem(28, 0); //28

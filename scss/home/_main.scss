@@ -5,7 +5,6 @@
 /* --- home main --- */
 // --------------------
 
-
 .home {
     font-optical-sizing: auto;
     background-color: $clr-bg-body ;
@@ -22,5 +21,34 @@
 
 .card {
 
-    &__img {}
+    &__content {
+        padding: em(40, 16) em(32, 16);
+
+        .content__Heading {
+
+            h1 {
+                font-family: $font-family-YoungSerif;
+                font-size: var(--heading-L); //36px
+                color: $clr-txt-heading-L ;
+                line-height: em(36, 36);
+                font-weight: 400;
+
+                margin-bottom: em(24, 36);
+            }
+
+            p {
+                font-family: $font-family-Outfit;
+                font-size: var(--body-Regular); //16px
+                color: $clr-txt-body-regular ;
+                line-height: em(24, 16);
+                font-weight: 400;
+
+            }
+
+            margin-bottom: em(32, 16);
+        }
+
+        
+
+    }
 }
