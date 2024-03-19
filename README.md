@@ -95,6 +95,33 @@ fallback to ttf.
 }
 ```
 
+Some sass cyklus
+
+```css
+li {
+    list-style-type: none;
+    padding-left: em(40, 16);
+
+    &::before {
+        font-weight: 700;
+        position: absolute;
+        line-height: 1em;
+        top: 0;
+        left: em(6, 16);
+
+        color: $clr-txt-li-point--ingr;
+    }
+
+    @for $i from 1 through 6 {
+        &:nth-child(#{$i}) {
+            &::before {
+                content: '#{$i}.';
+            }
+        }
+    }
+}
+```
+
 ### Continued development
 
 Practise, practise, practise.

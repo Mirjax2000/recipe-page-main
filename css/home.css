@@ -360,6 +360,7 @@ img {
 
 .card__content {
   padding: 2.5em 2em;
+  font-family: Outfit, sans-serif;
 }
 .card__content h2 {
   font-family: "Young Serif", serif;
@@ -368,9 +369,14 @@ img {
   font-weight: 400;
   line-height: 1em;
 }
+.card__content p {
+  font-size: var(--body-Regular);
+  color: #5F564D;
+  line-height: 1.5em;
+  font-weight: 400;
+}
 .card__content li {
   position: relative;
-  font-family: Outfit, sans-serif;
   font-size: var(--body-Regular);
   color: #5F564D;
   line-height: 1em;
@@ -394,19 +400,13 @@ img {
   font-weight: 400;
   margin-bottom: 0.6666666667em;
 }
-.card__content .content__Heading p {
-  font-family: Outfit, sans-serif;
-  font-size: var(--body-Regular);
-  color: #5F564D;
-  line-height: 1.5em;
-  font-weight: 400;
-}
 .card__content .content__Preparation {
   padding: 1.5em;
   font-family: Outfit, sans-serif;
+  border-radius: 0.75em;
+  background-color: #FFF7FB;
 }
 .card__content .content__Preparation h3 {
-  background-color: #FFF7FB;
   color: #7A284E;
   font-weight: 600;
   line-height: 1em;
@@ -449,6 +449,11 @@ img {
   font-size: 2em;
   color: #854632;
 }
+.card__content .content__Instruction {
+  border-bottom: 1px solid #E3DDD7;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
 .card__content .content__Instruction ol {
   margin-top: 1.5em;
 }
@@ -481,6 +486,37 @@ img {
 }
 .card__content .content__Instruction ol li:nth-child(6)::before {
   content: "6.";
+}
+.card__content .content__Nutrition > p:first-of-type {
+  margin-top: 1.5em;
+}
+.card__content .content__Nutrition ul {
+  margin-top: 1.5em;
+}
+.card__content .content__Nutrition ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-bottom: 0.75em;
+  border-bottom: 1px solid #E3DDD7;
+}
+.card__content .content__Nutrition ul li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.card__content .content__Nutrition ul li > p {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.card__content .content__Nutrition ul li p:first-child {
+  padding-left: 2em;
+}
+.card__content .content__Nutrition ul li p:last-child {
+  color: #854632;
+  font-weight: 700;
 }
 
 /* mediaqueries */

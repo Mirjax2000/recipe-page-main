@@ -23,6 +23,7 @@
 
     &__content {
         padding: em(40, 16) em(32, 16);
+        font-family: $font-family-Outfit;
 
         h2 {
             font-family: $font-family-YoungSerif;
@@ -32,9 +33,16 @@
             line-height: 1em;
         }
 
+        p {
+            font-size: var(--body-Regular); //16px
+            color: $clr-txt-heading-par ;
+            line-height: em(24, 16);
+            font-weight: 400;
+
+        }
+
         li {
             position: relative;
-            font-family: $font-family-Outfit;
             font-size: var(--body-Regular);
             color: $clr-txt-LI; //16px
             line-height: em(16, 16);
@@ -62,24 +70,16 @@
                 margin-bottom: em(24, 36);
             }
 
-            p {
-                font-family: $font-family-Outfit;
-                font-size: var(--body-Regular); //16px
-                color: $clr-txt-heading-par ;
-                line-height: em(24, 16);
-                font-weight: 400;
-
-            }
-
             margin-bottom: em(32, 16);
         }
 
         .content__Preparation {
             padding: em(24, 16);
             font-family: $font-family-Outfit;
+            border-radius: em($br-img, 16);
+            background-color: $clr-bg-Preparation ;
 
             h3 {
-                background-color: $clr-bg-Preparation ;
                 color: $clr-txt-heading-S ;
                 font-weight: 600;
                 line-height: em(20, 20);
@@ -135,6 +135,9 @@
         }
 
         .content__Instruction {
+            border-bottom: 1px solid $clr-br-list;
+            padding-bottom: em(32, 16);
+            margin-bottom: em(32, 16);
 
             ol {
                 margin-top: em(24, 16);
@@ -162,6 +165,44 @@
                     }
                 }
             }
+        }
+
+        .content__Nutrition {
+            &>p:first-of-type {
+                margin-top: em(24, 16);
+            }
+
+            ul {
+                margin-top: em(24, 16);
+
+                li {
+                    display: flex;
+                    justify-content: flex-start;
+                    padding-bottom: em(12, 16);
+                    border-bottom: 1px solid $clr-br-list;
+
+                    &:last-child {
+                        padding-bottom: 0;
+                        border-bottom: none;
+                    }
+
+
+                    &>p {
+                        flex-basis: 50%;
+                    }
+
+                    & p:first-child {
+                        padding-left: em(32, 16);
+                    }
+
+                    & p:last-child {
+                        color: $clr-txt-Nutrition ;
+                        font-weight: 700;
+                    }
+                }
+
+            }
+
         }
     }
 }
