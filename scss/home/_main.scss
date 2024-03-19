@@ -9,14 +9,15 @@
     font-optical-sizing: auto;
     background-color: $clr-bg-body ;
     // height: 100dvh;
-    width: 100dvw;
-    @include flexCenter;
+    // width: 100dvw;
+    // @include flexCenter;
 }
 
 .container {
     max-width: em(375, 16);
+    margin: 0 auto;
     background-color: $clr-bg-container ;
-    border-radius: em($br-card, 16);
+   
 }
 
 .card {
@@ -38,14 +39,13 @@
             color: $clr-txt-heading-par ;
             line-height: em(24, 16);
             font-weight: 400;
-
         }
 
         li {
             position: relative;
             font-size: var(--body-Regular);
             color: $clr-txt-LI; //16px
-            line-height: em(16, 16);
+            line-height: em(24, 16);
             font-weight: 400;
             padding-bottom: em(8, 16);
 
@@ -186,7 +186,6 @@
                         border-bottom: none;
                     }
 
-
                     &>p {
                         flex-basis: 50%;
                     }
@@ -200,9 +199,7 @@
                         font-weight: 700;
                     }
                 }
-
             }
-
         }
     }
 }

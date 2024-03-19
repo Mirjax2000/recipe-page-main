@@ -5,20 +5,30 @@
 /* mediaqueries */
 // ----------------------
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 501px) {
 
-    // :root {
-    //     --font-size:#{$font-size-100};
-    //     --heading:#{$headingMid};
-    //     --bodyM:#{$bodyMMid};
-    //     --bodyS:#{$bodySMid};
-    //     --footerH3:#{$footH3Mid};
-    // }
+    :root {
+        --font-size:#{$font-size-100};
+        --heading-L:#{$heading__L--Max};
+    }
 
     .container {
         max-width: em(736, 16);
+        border-radius: em($br-card, 16);
     }
 
+    .card {
+        padding: em(40, 16);
+
+        &__img {
+            border-radius: em($br-img, 16);
+            overflow: hidden;
+        }
+
+        &__content {
+            padding: em(40, 16) em(0, 16);
+        }
+    }
 }
 
 ;
