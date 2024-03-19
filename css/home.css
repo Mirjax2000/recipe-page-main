@@ -245,6 +245,7 @@ h5,
 h6,
 p,
 ul,
+ol,
 li,
 body,
 section,
@@ -256,10 +257,6 @@ article {
 a {
   display: inline-block;
   text-decoration: none;
-}
-
-li {
-  list-style-type: none;
 }
 
 *,
@@ -354,5 +351,16 @@ img {
           align-items: center;
 }
 
+.container {
+  max-width: 23.4375em;
+  background-color: #ffffff;
+  border-radius: 1.5em;
+}
+
 /* mediaqueries */
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 46em;
+  }
+}
 /*# sourceMappingURL=home.css.map */

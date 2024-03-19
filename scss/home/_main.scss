@@ -14,11 +14,11 @@
     @include flexCenter;
 }
 
-// .container {
-//     max-width: em(375, 16);
-//     background-color: $clr-bg-container ;
-//     border-radius: em($br-card, 16);
-// }
+.container {
+    max-width: em(375, 16);
+    background-color: $clr-bg-container ;
+    border-radius: em($br-card, 16);
+}
 
 .card {
 

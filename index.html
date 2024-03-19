@@ -1,49 +1,157 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>social-links-profile</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- zadej popis stranky -->
+        <meta name="description" content="" />
+        <!-- zadej klicova slova -->
+        <meta name="keywords" content="responsive" />
+        <!-- zadej jmeno autora -->
+        <meta name="author" content="Miroslav Viktorin" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <title>social-links-profile</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- zadej popis stranky -->
-    <meta name="description" content="">
-    <!-- zadej klicova slova -->
-    <meta name="keywords" content="responsive">
-    <!-- zadej jmeno autora -->
-    <meta name="author" content="Miroslav Viktorin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- aktivace fontawesome -->
+        <!-- <link rel="stylesheet" href="./assets/css/fontawesome.min.css"> -->
+        <!-- <link rel="stylesheet" href="./assets/css/brands.min.css"> -->
+        <!-- <link rel="stylesheet" href="./assets/css/solid.min.css"> -->
 
-    <!-- aktivace fontawesome -->
-    <!-- <link rel="stylesheet" href="./assets/css/fontawesome.min.css"> -->
-    <!-- <link rel="stylesheet" href="./assets/css/brands.min.css"> -->
-    <!-- <link rel="stylesheet" href="./assets/css/solid.min.css"> -->
+        <link rel="stylesheet" href="css/home.css" />
+        <link
+            rel="shortcut icon"
+            href="./favicon-32x32.png"
+            type="image/x-icon"
+        />
+        <link
+            rel="shortcut icon"
+            href="./favicon-32x32.webp"
+            type="image/x-icon"
+        />
+    </head>
 
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
-    <link rel="shortcut icon" href="./favicon-32x32.webp" type="image/x-icon">
-</head>
+    <body class="home">
+        <article class="container">
+            <section class="card">
+                <div class="card__img">
+                    <img
+                        sizes=""
+                        srcset="
+                            ./assets/img/main_325-test.webp   350w,
+                            ./assets/img/main_650-test.webp   750w,
+                            ./assets/img/main_1300-test.webp 1500w,
+                            ./assets/img/main_2600-test.webp 2600w
+                        "
+                        src="./assets/img/main_1300-test.webp"
+                        width="1300"
+                        height="594"
+                        alt="Omelet from recipe"
+                    />
+                </div>
 
-<body class="home">
+                <div class="card__content">
+                    <h1>Simple Omelette Recipe</h1>
+                    <p>
+                        An easy and quick dish, perfect for any meal. This
+                        classic omelette combines beaten eggs cooked to
+                        perfection, optionally filled with your choice of
+                        cheese, vegetables, or meats.
+                    </p>
 
-    <article class="container">
+                    <div class="card__Prep">
+                        <h3>Praparation time</h3>
+                        <ul>
+                            <li>
+                                <strong>Total</strong>Approximately 10 minutes
+                            </li>
+                            <li><strong>Preparation</strong>5 minutes</li>
+                            <li><strong>Cooking</strong>5 minutes</li>
+                        </ul>
+                    </div>
 
-        <div class="card">
+                    <div class="card__Ingred">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>2-3 large eggs</li>
+                            <li>Salt, to taste</li>
+                            <li>Pepper, to taste</li>
+                            <li>1 tablespoon of butter or oil</li>
+                            <li>
+                                Optional fillings: cheese, diced vegetables,
+                                cooked meats, herbs
+                            </li>
+                        </ul>
+                    </div>
 
-            <div class="card__img">
-                <img srcset="./assets/img/main_325-test.webp   350w,
-                             ./assets/img/main_650-test.webp   750w,
-                             ./assets/img/main_1300-test.webp 1500w,
-                             ./assets/img/main_2600-test.webp 2600w" 
-                sizes="(min-width:1501px)50vw, 100vw"
+                    <div class="card__Inst">
+                        <h2>Instructions</h2>
+                        <ol>
+                            <li>
+                                <strong>Beat the eggs: </strong>In a bowl, beat
+                                the eggs with a pinch of salt and pepper until
+                                they are well mixed. You can add a tablespoon of
+                                water or milk for a fluffier texture.
+                            </li>
+                            <li>
+                                <strong>Heat the pan:</strong> Place a non-stick
+                                frying pan over medium heat and add butter or
+                                oil.
+                            </li>
+                            <li>
+                                <strong>Cook the omellete: </strong>Once the
+                                butter is melted and bubbling, pour in the eggs.
+                                Tilt the pan to ensure the eggs evenly coat the
+                                surface.
+                            </li>
+                            <li>
+                                <strong>Add fillings (optional): </strong>4.
+                                When the eggs begin to set at the edges but are
+                                still slightly runny in the middle, sprinkle
+                                your chosen fillings over one half of the
+                                omelette.
+                            </li>
+                            <li>
+                                <strong>Fold and serve: </strong>As the omelette
+                                continues to cook, carefully lift one edge and
+                                fold it over the fillings. Let it cook for
+                                another minute, then slide it onto a plate.
+                            </li>
+                            <li>
+                                <strong>Enjoy: </strong>Serve hot, with
+                                additional salt and pepper if needed.
+                            </li>
+                        </ol>
+                    </div>
 
-                src="./assets/img/main_1300-test.webp" 
-                width="1300" height="594" 
-                alt="Omelet from recipe">
-               
-            </div>
-        </div>
-    </article>
-
-</body>
-
+                    <div class="card__Nutri">
+                        <h2>Nutrition</h2>
+                        <p>
+                            The table below shows nutritional values per serving
+                            without the additional fillings.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Calories</p>
+                                <p>277kcal</p>
+                            </li>
+                            <li>
+                                <p>Carbs</p>
+                                <p>0g</p>
+                            </li>
+                            <li>
+                                <p>Protein</p>
+                                <p>20g</p>
+                            </li>
+                            <li>
+                                <p>Fat</p>
+                                <p>22g</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </body>
 </html>

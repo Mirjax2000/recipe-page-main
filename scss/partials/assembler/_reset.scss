@@ -12,6 +12,7 @@ h5,
 h6,
 p,
 ul,
+ol,
 li,
 body,
 section,
@@ -25,9 +26,9 @@ a {
     text-decoration: none;
 }
 
-li {
-    list-style-type: none;
-}
+// li {
+//     list-style-type: none;
+// }
 
 *,
 *::before,
