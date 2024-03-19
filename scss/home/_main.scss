@@ -24,6 +24,32 @@
     &__content {
         padding: em(40, 16) em(32, 16);
 
+        h2 {
+            font-family: $font-family-YoungSerif;
+            font-size: var(--heading-M); //28px
+            color: $clr-txt-heading-M;
+            font-weight: 400;
+            line-height: 1em;
+        }
+
+        li {
+            position: relative;
+            font-family: $font-family-Outfit;
+            font-size: var(--body-Regular);
+            color: $clr-txt-LI; //16px
+            line-height: em(16, 16);
+            font-weight: 400;
+            padding-bottom: em(8, 16);
+
+            strong {
+                font-weight: 700;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+
         .content__Heading {
 
             h1 {
@@ -39,7 +65,7 @@
             p {
                 font-family: $font-family-Outfit;
                 font-size: var(--body-Regular); //16px
-                color: $clr-txt-body-regular ;
+                color: $clr-txt-heading-par ;
                 line-height: em(24, 16);
                 font-weight: 400;
 
@@ -48,7 +74,94 @@
             margin-bottom: em(32, 16);
         }
 
-        
+        .content__Preparation {
+            padding: em(24, 16);
+            font-family: $font-family-Outfit;
 
+            h3 {
+                background-color: $clr-bg-Preparation ;
+                color: $clr-txt-heading-S ;
+                font-weight: 600;
+                line-height: em(20, 20);
+                font-size: var(--heading-S); //20px
+            }
+
+            ul {
+                margin-top: em(16, 16);
+
+                li {
+                    list-style-type: none;
+
+                    padding-left: em(40, 16);
+
+                    &::before {
+                        content: '.';
+                        position: absolute;
+                        line-height: 0;
+                        top: 0;
+                        left: em(2, 16);
+
+                        font-size: 2em;
+                        color: $clr-txt-li-point--prep ;
+                    }
+                }
+            }
+        }
+
+        .content__Ingredients {
+            padding-block: em(32, 16);
+            border-bottom: 1px solid $clr-br-list;
+            margin-bottom: em(32, 16);
+
+            ul {
+                margin-top: em(24, 16);
+
+                li {
+                    list-style-type: none;
+                    padding-left: em(40, 16);
+
+                    &::before {
+                        content: '.';
+                        position: absolute;
+                        line-height: 0;
+                        top: 0;
+                        left: em(2, 16);
+
+                        font-size: 2em;
+                        color: $clr-txt-li-point--ingr;
+                    }
+                }
+            }
+        }
+
+        .content__Instruction {
+
+            ol {
+                margin-top: em(24, 16);
+
+                li {
+                    list-style-type: none;
+                    padding-left: em(40, 16);
+
+                    &::before {
+                        font-weight: 700;
+                        position: absolute;
+                        line-height: 1em;
+                        top: 0;
+                        left: em(6, 16);
+
+                        color: $clr-txt-li-point--ingr;
+                    }
+
+                    @for $i from 1 through 6 {
+                        &:nth-child(#{$i}) {
+                            &::before {
+                                content:'#{$i}.'
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

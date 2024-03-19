@@ -2,8 +2,8 @@
 :root {
   --font-size:100%;
   --heading-L:2.25rem;
-  --heading-M:0.875rem;
-  --heading-S:0.875rem;
+  --heading-M:1.75rem;
+  --heading-S:1.25rem;
   --body-Regular:1rem;
   --body-Bold:1rem;
 }
@@ -361,6 +361,28 @@ img {
 .card__content {
   padding: 2.5em 2em;
 }
+.card__content h2 {
+  font-family: "Young Serif", serif;
+  font-size: var(--heading-M);
+  color: #854632;
+  font-weight: 400;
+  line-height: 1em;
+}
+.card__content li {
+  position: relative;
+  font-family: Outfit, sans-serif;
+  font-size: var(--body-Regular);
+  color: #5F564D;
+  line-height: 1em;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+.card__content li strong {
+  font-weight: 700;
+}
+.card__content li:last-child {
+  padding-bottom: 0;
+}
 .card__content .content__Heading {
   margin-bottom: 2em;
 }
@@ -378,6 +400,87 @@ img {
   color: #5F564D;
   line-height: 1.5em;
   font-weight: 400;
+}
+.card__content .content__Preparation {
+  padding: 1.5em;
+  font-family: Outfit, sans-serif;
+}
+.card__content .content__Preparation h3 {
+  background-color: #FFF7FB;
+  color: #7A284E;
+  font-weight: 600;
+  line-height: 1em;
+  font-size: var(--heading-S);
+}
+.card__content .content__Preparation ul {
+  margin-top: 1em;
+}
+.card__content .content__Preparation ul li {
+  list-style-type: none;
+  padding-left: 2.5em;
+}
+.card__content .content__Preparation ul li::before {
+  content: ".";
+  position: absolute;
+  line-height: 0;
+  top: 0;
+  left: 0.125em;
+  font-size: 2em;
+  color: #7A284E;
+}
+.card__content .content__Ingredients {
+  padding-block: 2em;
+  border-bottom: 1px solid #E3DDD7;
+  margin-bottom: 2em;
+}
+.card__content .content__Ingredients ul {
+  margin-top: 1.5em;
+}
+.card__content .content__Ingredients ul li {
+  list-style-type: none;
+  padding-left: 2.5em;
+}
+.card__content .content__Ingredients ul li::before {
+  content: ".";
+  position: absolute;
+  line-height: 0;
+  top: 0;
+  left: 0.125em;
+  font-size: 2em;
+  color: #854632;
+}
+.card__content .content__Instruction ol {
+  margin-top: 1.5em;
+}
+.card__content .content__Instruction ol li {
+  list-style-type: none;
+  padding-left: 2.5em;
+}
+.card__content .content__Instruction ol li::before {
+  font-weight: 700;
+  position: absolute;
+  line-height: 1em;
+  top: 0;
+  left: 0.375em;
+  color: #854632;
+}
+.card__content .content__Instruction ol li:nth-child(1)::before {
+  content: "1.";
+}
+.card__content .content__Instruction ol li:nth-child(2)::before {
+  content: "2.";
+}
+.card__content .content__Instruction ol li:nth-child(3)::before {
+  content: "3.";
+}
+.card__content .content__Instruction ol li:nth-child(4)::before {
+  content: "4.";
+}
+.card__content .content__Instruction ol li:nth-child(5)::before {
+  content: "5.";
+}
+.card__content .content__Instruction ol li:nth-child(6)::before {
+  content: "6.";
 }
 
 /* mediaqueries */

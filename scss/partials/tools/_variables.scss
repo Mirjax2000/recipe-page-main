@@ -20,23 +20,25 @@ $clr99: #808080; // Grey
 
 // font color
 
-// text Heading
+// text Heading L
 $clr-txt-heading-L: $clr15;
 
-// text H1
-$clr-txt-H1: $clr13;
+// text Heading S
+$clr-txt-heading-S: $clr14;
 
-// text H2
-$clr-txt-H2: $clr14;
+// text Heading M
+$clr-txt-heading-M: $clr12;
 
-// text H3
-$clr-txt-H3: $clr10;
+// text LI
+$clr-txt-LI: $clr11;
+
 
 // text body regular
-$clr-txt-body-regular: $clr11;
+$clr-txt-heading-par: $clr11;
 
-// navigation links
-$clr-txt-navlinks: $clr10;
+// List item point
+$clr-txt-li-point--prep: $clr14;
+$clr-txt-li-point--ingr: $clr12;
 
 // footer paragraph
 $clr-txt-footer: $clr10;
@@ -46,6 +48,8 @@ $clr-txt-footer: $clr10;
 $clr-bg-body: $clr17;
 
 $clr-bg-container: $clr10;
+
+$clr-bg-Preparation: $clr16;
 
 $clr-bg-card-btn: $clr11;
 $clr-bg-card-btn-hover: $clr14;
@@ -91,6 +95,7 @@ $br-img: 12;
 
 // border color
 $clr-br: $clr13 ;
+$clr-br-list: $clr13 ;
 // ----------------------
 
 // shadow color
@@ -117,11 +122,11 @@ $heading__L--Mid: rem(36, 0); //36px
 
 // Heading M
 $heading__M--Max: rem(28, 0); //28
-$heading__M--Mid: rem(14, 0); //14
+$heading__M--Mid: rem(28, 0); //14
 
 // Heading S
 $heading__S--Max: rem(20, 0); //20
-$heading__S--Mid: rem(14, 0); //14
+$heading__S--Mid: rem(20, 0); //20
 
 // Body (Regular)
 $body__Regular--Max: rem(16, 0); //16
