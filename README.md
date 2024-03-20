@@ -28,7 +28,6 @@ Pseudoelements ::before for <ol></ol> list item
 
 ![](./preview.jpg)
 
-
 ## My process
 
 1. NPM init
@@ -41,7 +40,7 @@ Pseudoelements ::before for <ol></ol> list item
 5. selfhost and set fonts
 6. set color pallet to my variables maps
 7. calculate font sizes and line-heights to REMs and EMs
-8. HTML structure with B.E.M. - resolution switching and art direction for  images.
+8. HTML structure with B.E.M. - resolution switching and art direction for images.
 9. DiVe into coding in Sass
 10. Mediaqueries
 11. testing
@@ -58,8 +57,7 @@ Pseudoelements ::before for <ol></ol> list item
 
 ### What I learned
 
-<p>Art direction</p>
-<p>Resolution switching</p>
+<p>Art direction and Resolution switching</p>
 
 ```html
 <div class="card__img">
