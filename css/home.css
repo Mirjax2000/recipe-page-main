@@ -516,6 +516,7 @@ img {
   .container {
     max-width: 46em;
     border-radius: 1.5em;
+    margin-block: 7.8125em;
   }
   .card {
     padding: 2.5em;

@@ -15,6 +15,7 @@
     .container {
         max-width: em(736, 16);
         border-radius: em($br-card, 16);
+        margin-block: em(125,16);
     }
 
     .card {
