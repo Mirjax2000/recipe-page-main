@@ -477,9 +477,7 @@ img {
 .card__content .content__Instruction ol li:nth-child(6)::before {
   content: "6.";
 }
-.card__content .content__Nutrition > p:first-of-type {
-  margin-top: 1.5em;
-}
+.card__content .content__Nutrition > p:first-of-type,
 .card__content .content__Nutrition ul {
   margin-top: 1.5em;
 }

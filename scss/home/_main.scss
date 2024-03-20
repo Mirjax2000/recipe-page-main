@@ -17,7 +17,7 @@
     max-width: em(375, 16);
     margin: 0 auto;
     background-color: $clr-bg-container ;
-   
+
 }
 
 .card {
@@ -168,12 +168,13 @@
         }
 
         .content__Nutrition {
-            &>p:first-of-type {
+
+            &>p:first-of-type,
+            ul {
                 margin-top: em(24, 16);
             }
 
             ul {
-                margin-top: em(24, 16);
 
                 li {
                     display: flex;

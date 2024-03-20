@@ -8,7 +8,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 -   [Overview](#overview)
     -   [Screenshot](#screenshot)
-    -   [Links](#links)
 -   [My process](#my-process)
     -   [Built with](#built-with)
     -   [What I learned](#what-i-learned)
@@ -23,14 +22,12 @@ trying to save some bandwidth and made smaller picture for mobile resolution, an
 also i compress jpeg to webp.
 i saved lots of kilobytes. And it has some role in SEO evaluation.
 
+Pseudoelements ::before for <ol></ol> list item
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./preview.jpg)
 
-### Links
-
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -44,7 +41,7 @@ i saved lots of kilobytes. And it has some role in SEO evaluation.
 5. selfhost and set fonts
 6. set color pallet to my variables maps
 7. calculate font sizes and line-heights to REMs and EMs
-8. HTML structure with B.E.M. - resolution switching and art direction for images.
+8. HTML structure with B.E.M. - resolution switching and art direction for  images.
 9. DiVe into coding in Sass
 10. Mediaqueries
 11. testing
