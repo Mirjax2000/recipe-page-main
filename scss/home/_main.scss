@@ -179,13 +179,18 @@
                 li {
                     display: flex;
                     justify-content: flex-start;
-                    padding-bottom: em(12, 16);
+                    padding-block: em(12, 16);
                     border-bottom: 1px solid $clr-br-list;
+
+                    &:first-child {
+                        padding-top: 0;
+                    }
 
                     &:last-child {
                         padding-bottom: 0;
                         border-bottom: none;
                     }
+
 
                     &>p {
                         flex-basis: 50%;

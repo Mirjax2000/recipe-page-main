@@ -488,8 +488,11 @@ img {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding-bottom: 0.75em;
+  padding-block: 0.75em;
   border-bottom: 1px solid #E3DDD7;
+}
+.card__content .content__Nutrition ul li:first-child {
+  padding-top: 0;
 }
 .card__content .content__Nutrition ul li:last-child {
   padding-bottom: 0;
