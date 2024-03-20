@@ -57,7 +57,7 @@ Pseudoelements ::before for <ol></ol> list item
 
 ### What I learned
 
-<p>Art direction and Resolution switching</p>
+<p>"Art direction" and "Resolution switching"</p>
 
 ```html
 <div class="card__img">
@@ -77,8 +77,7 @@ Pseudoelements ::before for <ol></ol> list item
 </div>
 ```
 
-Here i am self-hosting fonts.
-I compressed it to woff2.
+Here i am self-hosting fonts compressed it to woff2,
 fallback to ttf.
 
 ```css
