@@ -41,10 +41,11 @@
             font-weight: 400;
         }
 
-        li {
+        li,
+        span {
             position: relative;
-            font-size: var(--body-Regular);
-            color: $clr-txt-LI; //16px
+            font-size: var(--body-Regular); //16px
+            color: $clr-txt-LI;
             line-height: em(24, 16);
             font-weight: 400;
             padding-bottom: em(8, 16);
@@ -143,26 +144,10 @@
                 margin-top: em(24, 16);
 
                 li {
-                    list-style-type: none;
-                    padding-left: em(40, 16);
-
-                    &::before {
-                        font-weight: 700;
-                        position: absolute;
-                        line-height: 1em;
-                        top: 0;
-                        left: em(6, 16);
-
-                        color: $clr-txt-li-point--ingr;
-                    }
-
-                    @for $i from 1 through 6 {
-                        &:nth-child(#{$i}) {
-                            &::before {
-                                content:'#{$i}.'
-                            }
-                        }
-                    }
+                    color: $clr-txt-li-point--ingr;
+                    font-weight: 700;
+                    margin-left: em(25, 16);
+                    padding-left: em(15, 16);
                 }
             }
         }

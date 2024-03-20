@@ -318,6 +318,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: var(--font-size);
+  scroll-behavior: smooth;
 }
 html ::-moz-selection {
   background-color: #F3E5D7;
@@ -365,7 +366,8 @@ img {
   line-height: 1.5em;
   font-weight: 400;
 }
-.card__content li {
+.card__content li,
+.card__content span {
   position: relative;
   font-size: var(--body-Regular);
   color: #5F564D;
@@ -373,10 +375,12 @@ img {
   font-weight: 400;
   padding-bottom: 0.5em;
 }
-.card__content li strong {
+.card__content li strong,
+.card__content span strong {
   font-weight: 700;
 }
-.card__content li:last-child {
+.card__content li:last-child,
+.card__content span:last-child {
   padding-bottom: 0;
 }
 .card__content .content__Heading {
@@ -448,34 +452,10 @@ img {
   margin-top: 1.5em;
 }
 .card__content .content__Instruction ol li {
-  list-style-type: none;
-  padding-left: 2.5em;
-}
-.card__content .content__Instruction ol li::before {
-  font-weight: 700;
-  position: absolute;
-  line-height: 1em;
-  top: 0;
-  left: 0.375em;
   color: #854632;
-}
-.card__content .content__Instruction ol li:nth-child(1)::before {
-  content: "1.";
-}
-.card__content .content__Instruction ol li:nth-child(2)::before {
-  content: "2.";
-}
-.card__content .content__Instruction ol li:nth-child(3)::before {
-  content: "3.";
-}
-.card__content .content__Instruction ol li:nth-child(4)::before {
-  content: "4.";
-}
-.card__content .content__Instruction ol li:nth-child(5)::before {
-  content: "5.";
-}
-.card__content .content__Instruction ol li:nth-child(6)::before {
-  content: "6.";
+  font-weight: 700;
+  margin-left: 1.5625em;
+  padding-left: 0.9375em;
 }
 .card__content .content__Nutrition > p:first-of-type,
 .card__content .content__Nutrition ul {

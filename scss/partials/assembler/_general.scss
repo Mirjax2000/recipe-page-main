@@ -11,6 +11,7 @@ html {
     @include box-sizing (border-box);
     @include selection ($clr-bg-body);
     font-size: var(--font-size);
+    scroll-behavior: smooth;
 }
 
 img {
